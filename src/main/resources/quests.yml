@@ -1,0 +1,22 @@
+quests:
+  diamonds1:
+    npc_id: 1
+    name: "Блестяшка💎"
+    description: "Синдри хочет 24 алмаза для брони"
+    required_items:
+      DIAMOND: 24
+    rewards:
+      MONEY: 250
+      EXPERIENCE: 500
+    cooldown: 3600
+    repeatable: false
+
+  diamonds2:
+    npc_id: 1
+    name: "Блестяшка💎 #2"
+    description: "Ещё 32 алмаза для шлема"
+    required_items:
+      DIAMOND: 32
+    dependencies:
+      - diamonds1
+    repeatable: false

@@ -1,0 +1,14 @@
+name: ParamountNpc
+version: '1.0'
+main: dev.paramountdev.paramountNpc_PDev.ParamountNpc_PDev
+api-version: '1.20'
+
+author: ParamountDev
+
+depend: [NPCLibPlugin]
+
+commands:
+  npc:
+    description: Управление NPC
+    usage: /npc <create|setskin|remove|info>
+    aliases: [paramountnpc]
